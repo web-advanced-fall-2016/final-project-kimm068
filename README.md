@@ -1,6 +1,6 @@
 # Final Assignment
 
-**"A Digital Memory" is  a online platform that depicts a future where we no longer need to memorize anything due to technology. **
+** "A Digital Memory" is  a online platform that depicts a future where we no longer need to memorize anything due to technology **
 
 ![alt text](/screenshot/1.png?raw=true)
 
