@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
+@import url('https://fonts.googleapis.com/css?family=Ek+Mukta:300,400');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+body {
+	background-color: #ffffff;
+	margin: 20px 100px 50px 100px;
+
+}
+
+#container{
+	z-index: -1;
+}
+
+#title{
+	z-index: 1;
+	font-size: 30px;
+	color: black;
+	padding-top: 0px;
+	/*padding-left:20px;*/
+	text-align: center;
+	/*font-family: 'Ek Mukta', sans-serif;*/
+	/*font-family: 'Share Tech Mono', monospace;*/
+	font-family: 'Droid Sans', sans-serif;
+
+}
+
+
+.images {
+	display: inline-block;
+	/*position: absolute;*/
+	opacity: 0.9;
+	background-blend-mode: luminosity;
+	width: 25%;
+	/*rgba(255, 0, 0, 0.25);*/
+	/*background:rgba(0,0,0,.75);*/
+	filter: grayscale(100%);
+	filter: gray;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	-webkit-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+
+.images:hover,
+.images:focus{
+	/*display: inline-block;*/
+	filter: grayscale(0%);
+	/*width:21%; */
+	margin:0;
+	padding:0;
+}
+
+.images img{
+	width: 100%;
+}
+
+form {
+	text-align: center;
+	padding: 23px;
+}
+
+#mval {
+	width:180px;
+	text-align: center;
+}
+
+#submit{
+	/*position: absolute;*/
+	z-index: 3;
+	top:80px;
+	/*right:10px;*/
+	opacity: 0.5;
+	width:80px;
+	height:30px;
+	font-size: 25px;
+	padding: 23px;
+	color: red;
+}

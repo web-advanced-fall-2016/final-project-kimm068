@@ -1,0 +1,22 @@
+{
+  "name": "midterm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "file-system": "^2.2.1",
+    "fs": "^0.0.2",
+    "prompt": "^1.0.0",
+    "python-shell": "^0.4.0",
+    "serialport": "^4.0.5",
+    "socket.io": "^1.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
