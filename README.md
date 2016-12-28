@@ -2,9 +2,9 @@
 
 **"A Digital Memory" is  a online platform that depicts a future where we no longer need to memorize anything due to technology. **
 
-![1](/Users/miyeon/Documents/Thesis_Fall_2016/Javascript/final-project-kimm068/screenshot/1.png)
+![alt text](/screenshot/1.png?raw=true)
 
-![2](/Users/miyeon/Documents/Thesis_Fall_2016/Javascript/final-project-kimm068/screenshot/2.png)
+![alt text](/screenshot/2.png?raw=true)
 
 Today we are exposed to the internet and it has become less necessary for us to memorize everything. We don’t try to absorb information like before because we don’t have to worry about losing information anymore. So for my project I want to criticize how the internet has become our primary external storage system. Maybe in the future, we no longer need to memorize anything since the internet does everything.
 
@@ -18,5 +18,5 @@ When you see something that you want to remember, you can simply cover the photo
 
 
 
-![3](/Users/miyeon/Documents/Thesis_Fall_2016/Javascript/final-project-kimm068/screenshot/3.png)
+![alt text](/screenshot/3.png?raw=true)
 
