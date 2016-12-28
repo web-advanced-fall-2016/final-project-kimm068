@@ -11,7 +11,7 @@ Today we are exposed to the internet and it has become less necessary for us to 
 I am using a camera sensor to capture whatever I want to save or remember, and those photos will automatically upload to the web server that becomes a personal digital memory. 
 
 
-**Tools used: **
+**How it works:**
 - RaspberryPi 
 - Camera sensor
 - Arduino
