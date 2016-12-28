@@ -13,12 +13,13 @@ I am using a camera sensor to capture whatever I want to save or remember, and t
 
 
 
-**How it works:**
+**Tools used:**
 - RaspberryPi 
 - Camera sensor
 - Arduino
 - Photo Resistor
 - LED
+
 
 
 
