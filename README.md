@@ -25,6 +25,7 @@ I am using a camera sensor to capture whatever I want to save or remember, and t
 
 
 **How it works:**
+
 When you see something that you want to remember, you can simply cover the photo sensor on the glove to activate a camera on the helmet. Once the photo is taken, all the photos will be saved locally in the folder in your raspberry pi and list it on the web server in real time. 
 
 
