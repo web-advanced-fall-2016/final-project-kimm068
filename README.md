@@ -47,13 +47,14 @@ I am using a camera sensor to capture whatever I want to save or remember, and t
 
 When you see something that you want to remember, you can simply cover the photo sensor on the glove to activate a camera on the helmet. Once the photo is taken, all the photos will be saved locally in the folder in your raspberry pi and list it on the web server in real time. 
 ​
-
+​
 
 ![alt text](/screenshot/3.png?raw=true)
 
 
 
-
+​
+​
 
 
 
@@ -63,7 +64,8 @@ When you see something that you want to remember, you can simply cover the photo
 ![alt text](/screenshot/2.png?raw=true)
 
 
-
+​
+​
 
 
 
@@ -81,7 +83,7 @@ When you see something that you want to remember, you can simply cover the photo
 3. The port I used is  `/dev/ttyACM0`.
 
    ​
-
+​
    
 
 ##### Setup & Run the Server
@@ -95,7 +97,7 @@ Before trying to run the code, you must download the following dependencies from
 - python-shell
 - fs
 
-
+​
 
 
 
@@ -108,7 +110,7 @@ Before trying to run the code, you must download the following dependencies from
 4. check the current photos ( or memories) on the web server.
 
 
-
+​
 
 
 
@@ -121,7 +123,8 @@ Server uses a file system to collect all the images on the local folder and send
 The server communicates with an Arduino using serial communication. When the photo sensor is triggered, the arduino sends a data to the server and the server run the python script that captures a photo.
 When the user leaves a comment on the website, the server receives a data and sends it back to arduino.
 
-
+​
+​
 
 **Socket Endpoints**
 
@@ -134,7 +137,7 @@ When the user leaves a comment on the website, the server receives a data and se
 
 
 
-
+​
 
 **(Client)**
 
