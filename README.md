@@ -22,7 +22,8 @@ I am using a camera sensor to capture whatever I want to save or remember, and t
 
 
 
-
+​
+​
 
 
 
@@ -37,7 +38,8 @@ I am using a camera sensor to capture whatever I want to save or remember, and t
 4. **Public folder** - index.html, main.js, style.css
 
 
-
+​
+​
 
 
 
@@ -80,7 +82,7 @@ When you see something that you want to remember, you can simply cover the photo
 
    ​
 
-   ​
+   
 
 ##### Setup & Run the Server
 
