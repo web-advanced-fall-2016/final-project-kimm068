@@ -74,7 +74,7 @@ When you see something that you want to remember, you can simply cover the photo
 
 1. Open the photoSensor.ino file from the Arduino folder. Setup LEDs and a photo resistor using pins as below.
 
-   int lightPin = 0;   
+   int lightPin = 0;
    int ledPin = 11;
    int ledPin2= 12;
 
