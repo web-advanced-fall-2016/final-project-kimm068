@@ -1,6 +1,6 @@
 # Final Assignment
 
-**"A Digital Memory" is  a online platform that depicts a future where we no longer need to memorize anything due to technology**
+**"A Digital Memory" is a wearable device + online platform that depicts a future where we no longer need to memorize anything due to technology**
 
 ![alt text](/screenshot/1.png?raw=true)
 
@@ -32,3 +32,11 @@ When you see something that you want to remember, you can simply cover the photo
 
 ![alt text](/screenshot/3.png?raw=true)
 
+
+
+**How to run: **
+1. SSH to Pi
+2. run node app.js
+3. trigger a photo sensor on the glove (connected to arduino)
+4. enter localhost (or IP address) with the port number 8070.
+5. check the current photos ( or memories) on the web server.
