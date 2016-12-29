@@ -35,6 +35,7 @@ When you see something that you want to remember, you can simply cover the photo
 
 
 **How to run: **
+
 1. SSH to Pi
 2. run node app.js
 3. trigger a photo sensor on the glove (connected to arduino)
