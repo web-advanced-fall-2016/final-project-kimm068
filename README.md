@@ -23,6 +23,20 @@ I am using a camera sensor to capture whatever I want to save or remember, and t
 
 
 
+**Files to check:**
+
+1. app.js (server)
+
+2. **Arduino Folder** - photoSensor.ino 
+
+3. videoCam.py (activates a pi camera)
+
+4. **Public folder** - index.html, main.js, style.css
+
+   ​
+
+
+
 
 **How it works:**
 
@@ -34,10 +48,73 @@ When you see something that you want to remember, you can simply cover the photo
 
 
 
-**How to run the app:**
 
-1. SSH to Pi
-2. run node app.js
-3. trigger a photo sensor on the glove (connected to arduino)
-4. enter localhost (or IP address) with the port number 8070.
-5. check the current photos ( or memories) on the web server.
+
+### How to run the app:
+
+
+
+##### Setup the Arduino
+
+1. Open the photoSensor.ino file from the Arduino folder. Setup LEDs and a photo resistor using pins as below.
+
+   int lightPin = 0;
+   int ledPin = 11;
+   int ledPin2= 12;
+
+2. Upload a file to the Arduino and unplug it from the computer, and plug it to Raspberry Pi. 
+
+3. The port I used is  `/dev/ttyACM0`.
+
+   ​
+
+##### Setup & Run the Server
+
+Before trying to run the code, you must download the following dependencies from NPM using the `npm -install`command.
+
+- serialport
+- socket.io
+- express
+- bodyParser
+- python-shell
+- fs
+
+
+
+**Follow the steps below after all dependencies have been installed.**
+
+1. run node app.js
+2. trigger a photo sensor on the glove (connected to arduino)
+3. Start the server on `localhost:8070`.
+4. check the current photos ( or memories) on the web server.
+
+
+
+
+
+### Client/Server Interaction
+
+**(Server) **
+
+Server uses a file system to collect all the images on the local folder and send it to the client side.
+The server communicates with an Arduino using serial communication. When the photo sensor is triggered, the arduino sends a data to the server and the server run the python script that captures a photo.
+When the user leaves a comment on the website, the server receives a data and sends it back to arduino.
+
+
+
+**Socket Endpoints**
+
+| URL          | Description                              | method |
+| ------------ | ---------------------------------------- | ------ |
+| `connection` | Connects socket and console out the result. | ON     |
+| `error`      | Open errors will be emitted as an error event | ON     |
+| `toArduino`  | Receive a data from the client side to Arduino | ON     |
+| `numOfImgs`  | Send all the images on the local folder to the client side. | EMIT   |
+
+
+
+**(Client)**
+
+The client receives all the images from the server and display them on the web interface.
+When the user leaves a comment on the website, send a data to arduino side and turn the LED on to alert that there is a new comment. 
+

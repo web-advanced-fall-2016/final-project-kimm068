@@ -15,12 +15,12 @@ socket.on('images',function(data){
 	}
 });
 
-socket.on('toScreen', function (data) {
-	console.log(data);
-	document.getElementById("m_space").innerHTML = data.m;
-	memory = data.m;
+// socket.on('toScreen', function (data) {
+// 	console.log(data);
+// 	document.getElementById("m_space").innerHTML = data.m;
+// 	memory = data.m;
 
-});
+// });
 
 
 //When color button is clicked emit data to socket
@@ -28,5 +28,5 @@ socket.on('toScreen', function (data) {
 	function toServer(){
 
 		var mval = document.getElementById('mval').value;
-		socket.emit('toArduino', {x:"capture"});
+		socket.emit('toArduino', {x:"mval"});
 	}
