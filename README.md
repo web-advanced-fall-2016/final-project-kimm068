@@ -4,7 +4,6 @@
 
 ![alt text](/screenshot/1.png?raw=true)
 
-![alt text](/screenshot/2.png?raw=true)
 
 Today we are exposed to the internet and it has become less necessary for us to memorize everything. We don’t try to absorb information like before because we don’t have to worry about losing information anymore. So for my project I want to criticize how the internet has become our primary external storage system. Maybe in the future, we no longer need to memorize anything since the internet does everything.
 
@@ -33,15 +32,15 @@ I am using a camera sensor to capture whatever I want to save or remember, and t
 
 4. **Public folder** - index.html, main.js, style.css
 
-   ​
+   
 
 
 
-
+​
 **How it works:**
 
 When you see something that you want to remember, you can simply cover the photo sensor on the glove to activate a camera on the helmet. Once the photo is taken, all the photos will be saved locally in the folder in your raspberry pi and list it on the web server in real time. 
-
+​
 
 
 ![alt text](/screenshot/3.png?raw=true)
@@ -53,7 +52,9 @@ When you see something that you want to remember, you can simply cover the photo
 ### How to run the app:
 
 
+![alt text](/screenshot/2.png?raw=true)
 
+​
 ##### Setup the Arduino
 
 1. Open the photoSensor.ino file from the Arduino folder. Setup LEDs and a photo resistor using pins as below.
@@ -80,7 +81,7 @@ Before trying to run the code, you must download the following dependencies from
 - fs
 
 
-
+​
 **Follow the steps below after all dependencies have been installed.**
 
 1. run node app.js
@@ -94,7 +95,7 @@ Before trying to run the code, you must download the following dependencies from
 
 ### Client/Server Interaction
 
-**(Server) **
+**(Server)**
 
 Server uses a file system to collect all the images on the local folder and send it to the client side.
 The server communicates with an Arduino using serial communication. When the photo sensor is triggered, the arduino sends a data to the server and the server run the python script that captures a photo.
