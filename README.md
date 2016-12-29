@@ -34,7 +34,7 @@ When you see something that you want to remember, you can simply cover the photo
 
 
 
-**How to run: **
+**How to run the app:**
 
 1. SSH to Pi
 2. run node app.js
